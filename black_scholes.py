@@ -74,7 +74,7 @@ print(f"Theta Call = {g['theta_call']:.4f} (par jour)")
 print(f"Theta Put  = {g['theta_put']:.4f} (par jour)")
 
 
-# ── Visualisation : prix et Greeks en fonction de S ──────────────────────────
+# Visualisation : prix et Greeks en fonction de S
 S_range = np.linspace(100, 200, 200)
 
 calls = []
